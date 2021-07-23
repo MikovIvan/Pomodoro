@@ -9,13 +9,13 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import ru.mikov.pomodoro.R
-import ru.mikov.pomodoro.UNIT_TEN_MS
 import ru.mikov.pomodoro.data.Timer
 import ru.mikov.pomodoro.data.TimerStatus
 import ru.mikov.pomodoro.databinding.TimerItemBinding
 import ru.mikov.pomodoro.extensions.displayTime
 import ru.mikov.pomodoro.extensions.startAnimation
 import ru.mikov.pomodoro.extensions.stopAnimation
+import ru.mikov.pomodoro.service.UNIT_TEN_MS
 
 class TimerAdapter(
     private val listener: TimerListener,

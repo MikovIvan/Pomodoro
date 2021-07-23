@@ -9,10 +9,11 @@ import androidx.lifecycle.OnLifecycleEvent
 import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.recyclerview.widget.LinearLayoutManager
 import by.kirich1409.viewbindingdelegate.viewBinding
-import ru.mikov.pomodoro.*
+import ru.mikov.pomodoro.R
 import ru.mikov.pomodoro.data.Timer
 import ru.mikov.pomodoro.data.TimerStatus
 import ru.mikov.pomodoro.databinding.ActivityMainBinding
+import ru.mikov.pomodoro.service.*
 
 class MainActivity : AppCompatActivity(), TimerListener, LifecycleObserver {
     private val viewBinding: ActivityMainBinding by viewBinding()

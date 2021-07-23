@@ -1,4 +1,4 @@
-package ru.mikov.pomodoro
+package ru.mikov.pomodoro.service
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -11,6 +11,7 @@ import android.os.CountDownTimer
 import android.os.IBinder
 import android.util.Log
 import androidx.core.app.NotificationCompat
+import ru.mikov.pomodoro.R
 import ru.mikov.pomodoro.extensions.displayTime
 import ru.mikov.pomodoro.ui.MainActivity
 

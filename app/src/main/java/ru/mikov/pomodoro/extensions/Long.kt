@@ -1,6 +1,6 @@
 package ru.mikov.pomodoro.extensions
 
-import ru.mikov.pomodoro.START_TIME
+import ru.mikov.pomodoro.service.START_TIME
 
 fun Long.displayTime(): String {
     if (this <= 0L) {

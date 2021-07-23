@@ -1,4 +1,4 @@
-package ru.mikov.pomodoro.data
+package ru.mikov.pomodoro.ui.customview
 
 import android.content.Context
 import android.graphics.Canvas
